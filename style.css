@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #6495ed;
+}
+
+.navbar-brand {
+  margin-left: 5vh;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #ffae00;
+}
+
+.search {
+  margin-right: 5vh;
+}
+
+.header {
+  color: #010c39;
+  text-align: center;
+  left: 25%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 0;
+  /* position: absolute; */
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  /* padding-top: 10px; */
+  /* position: absolute; */
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0;
+  /* position: absolute; */
+}
+
+.card-game-1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  position: relative;
+  top: 40px;
+  left: 100;
+  right: 960;
+  bottom: 924px;
+  background-color: #f2f6ff;
+  color: #010c39;
+  border: 3px solid #010c39;
+  border-radius: 60px;
+}
+
+.card-game-2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  position: relative;
+  top: 40px;
+  left: 530;
+  right: 530;
+  bottom: 924px;
+  background-color: #f2f6ff;
+  color: #010c39;
+  border: 3px solid #010c39;
+  border-radius: 60px;
+}
+
+.card-game-3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  position: relative;
+  top: 40px;
+  left: 960;
+  right: 100;
+  bottom: 924px;
+  background-color: #f2f6ff;
+  color: #010c39;
+  border: 3px solid #010c39;
+  border-radius: 60px;
+}
+
+.card-game-4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  position: relative;
+  top: 40px;
+  left: 960;
+  right: 100;
+  bottom: 924px;
+  background-color: #f2f6ff;
+  color: #010c39;
+  border: 3px solid #010c39;
+  border-radius: 60px;
+}
+
+#game-category {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+#game-desc {
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+#game-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #ffae00;
+  border-radius: 25px;
+  width: 174px;
+  height: 55px;
+  border: 3px solid #010c39;
+  border-radius: 37.5px;
+}
+
+a {
+  color: #010c39;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 1vh;
+  width: 100%;
+  background-color: #6495ed;
+  color: white;
+  text-align: center;
+}
